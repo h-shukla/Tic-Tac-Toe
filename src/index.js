@@ -2,15 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-/* 
-Visualization of the board
-  [
-    'O', null, 'X',
-    'X', 'X', 'O',
-    'O', null, null,
-  ]
-*/
-
 // if the component is just returning one thing,
 // there's no need to make classes
 const Square = (props) => {
